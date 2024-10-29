@@ -1,0 +1,9 @@
+name = "learn-next-15"
+type = "javascript" # 可以是 "javascript" 或 "webpack"
+
+# 如果您使用 Next.js，可以使用以下配置
+[build]
+command = "npm run build" # 或者 "yarn build"
+cwd = "."
+output_dir = "out" # 输出目录（可根据需要调整）
+compatibility_date = "2024-10-29" # 设置为您部署的日期
