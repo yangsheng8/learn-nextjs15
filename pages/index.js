@@ -16,8 +16,6 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-export const runtime = "edge";
-
 export default function Home() {
   // 定义 progress 状态
   const [progress, setProgress] = useState(0);
